@@ -233,6 +233,16 @@ h2 {
     line-height: 5rem;
 }
 
+.attribution {
+    font-size: 10px;
+    text-align: center;
+}
+
+.attribution a {
+    color: black;
+    font-size: 10px;
+}
+
 .remote-information p {
     color: var(--medium-gray);
     font-size: 1.1rem;
