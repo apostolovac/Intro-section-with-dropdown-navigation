@@ -1,11 +1,11 @@
-const ham = document.querySelector(".hamburger");
+const hamburger = document.querySelector(".hamburger");
 const header = document.querySelector(".header");
 const featuresBtn = document.querySelector(".features-btn");
 const hiddenFeaturesBtn = document.querySelector(".hidden-features");
 const companyBtn = document.querySelector(".company-btn");
 const hiddenCompanyBtn = document.querySelector(".hidden-company");
 
-ham.addEventListener("click", function () {
+hamburger.addEventListener("click", function () {
  header.classList.toggle("active");
 });
 
